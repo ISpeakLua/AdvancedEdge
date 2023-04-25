@@ -3639,4 +3639,5 @@ function Module:Unserialize(maindata:string,scriptsFolder:Folder): Instance
 	return toReturn
 end
 
+getgenv().Serialize = Module
 return Module
